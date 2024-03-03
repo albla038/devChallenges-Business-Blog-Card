@@ -13,6 +13,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['"Lato"', "ui-sans-serif", "system-ui"],
+        poppins: ['"Poppins"'],
       },
     },
   },
