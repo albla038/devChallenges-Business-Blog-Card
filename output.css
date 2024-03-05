@@ -556,6 +556,18 @@ video {
   bottom: 0%;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
+.-m-px {
+  margin: -1px;
+}
+
+.-m-0 {
+  margin: -0px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -565,13 +577,12 @@ video {
   margin-top: 8rem;
 }
 
-.flex {
-  display: flex;
+.-mb-1 {
+  margin-bottom: -0.25rem;
 }
 
-.size-12 {
-  width: 3rem;
-  height: 3rem;
+.flex {
+  display: flex;
 }
 
 .size-11 {
@@ -669,10 +680,6 @@ video {
   font-family: "Poppins";
 }
 
-.font-\[\] {
-  font-family: ;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -683,32 +690,16 @@ video {
   line-height: 1rem;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
-.font-normal {
-  font-weight: 400;
-}
-
 .font-\[500\] {
   font-weight: 500;
 }
 
-.font-\[400\] {
-  font-weight: 400;
-}
-
-.font-\[600\] {
+.font-semibold {
   font-weight: 600;
 }
 
 .leading-10 {
   line-height: 2.5rem;
-}
-
-.tracking-tight {
-  letter-spacing: -0.025em;
 }
 
 .tracking-tighter {
